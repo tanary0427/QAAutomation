@@ -3,4 +3,4 @@ Steps for running the scripts:
 2. open this as new project by using Intellij
 3. once all file has been synced up, go to "View->Tool Windows->Gradle".
 4. Go to "Tasks->build", click "clean" first, then click "build". then all test scenarios will be started.
-5. after all cases finished, please go to "out" folder to check the test result.
+5. after all cases finished, please check the test result file with name like "TestResult_XXXX".
