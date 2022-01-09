@@ -41,7 +41,7 @@ public class TestEntryForCelebrities implements ITest {
         driver = new ChromeDriver();
         driver.get("https://en.wikipedia.org/wiki/Main_Page");
         Thread.sleep(5000);
-        CommonHelper.logPath = "out/TestResult_" + System.currentTimeMillis() + ".txt";
+        CommonHelper.logPath = "TestResult_" + System.currentTimeMillis() + ".txt";
     }
 
     @Test(dataProvider = "Celebrities")
